@@ -1,0 +1,14 @@
+h1 {
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+}
+
+.complete {
+	color: #C92228;
+	text-decoration: line-through;
+}
+
+.revert {
+	color: #000;
+	text-decoration: none;
+}
