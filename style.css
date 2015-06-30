@@ -3,12 +3,34 @@ h1 {
 	font-weight: 700;
 }
 
+ol {
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+}
+
 .complete {
-	color: #C92228;
+	color: #53bf6b;
 	text-decoration: line-through;
 }
 
 .revert {
 	color: #000;
 	text-decoration: none;
+}
+
+.btn-teal {
+	color: #fff;
+	background-color: #53bf6b;
+	border-color: #47ac5d;
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+}
+
+/*input[type='text']:focus{
+ outline-color: 50px #53bf6b;
+}​*/
+
+.form-control:focus {
+	border-color: #53bf6b;
+	box-shadow: inset 0 1px 1px rgba(71, 172, 93, 0.075), 0 0 8px rgba(83, 191, 107, 0.6);
 }

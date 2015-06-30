@@ -25,15 +25,11 @@ $(function() {
 
 	todoList.push(item1);
 
-	// Completed tasks get crossed out
+	// Completed tasks get crossed out and disappear using method chaining
 	$taskOL.on("click", ".item", function(event) {
-		$(this).addClass("complete");
+		$(this).addClass("complete").hide("slow");
 	});
 
-	// After task gets crossed, the item list disappears
-	$taskOL.on("click", ".item", function(event) {
-  		$(this).hide("slow");
-  	});
 
 });
 
