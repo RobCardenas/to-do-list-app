@@ -1,3 +1,7 @@
+.header-top {
+	margin-top: 30px;
+}
+
 h1 {
 	font-family: 'Merriweather', serif;
 	font-weight: 700;
@@ -8,14 +12,14 @@ ol {
 	font-weight: 400;
 }
 
+li.item {
+	border-bottom: 1px solid #eee;
+	padding: 10px 0 10px 0;
+}
+
 .complete {
 	color: #53bf6b;
 	text-decoration: line-through;
-}
-
-.revert {
-	color: #000;
-	text-decoration: none;
 }
 
 .btn-teal {
@@ -25,10 +29,6 @@ ol {
 	font-family: 'Merriweather', serif;
 	font-weight: 400;
 }
-
-/*input[type='text']:focus{
- outline-color: 50px #53bf6b;
-}​*/
 
 .form-control:focus {
 	border-color: #53bf6b;
