@@ -53,7 +53,7 @@ $(function() {
     // append our new todo to the page
     var $todo = $(toDoTemplate(newTask));
 
-    $todo.attr(newTask.task, newTask.description);
+    $todo.attr('data-index', newTask.task, newTask.description);
     $taskOL.append($todo);
 
     // reset the form
